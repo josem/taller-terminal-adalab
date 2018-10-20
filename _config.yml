@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-highlighter: true
+rouge: true
 safe: false
 title: 'Terminal - Adalab'
