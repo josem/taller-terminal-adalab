@@ -1,0 +1,46 @@
+<h1>{{ site.title }}</h1>
+<ul id='links'>
+  {% for post in site.posts %}
+    {% if post.category == null %}
+    <li><a href='#{{ post.url }}'>{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  <li>
+    <h2>Primeros Comandos</h2>
+    <ul>
+      {% for post in site.categories.primeros-comandos %}
+        <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    <h2>Sistema de Archivos</h2>
+    <ul>
+      {% for post in site.categories.sistema-de-archivos %}
+        <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+
+
+  <li>
+    <h2>Trucos del Terminal</h2>
+    <ul>
+      {% for post in site.categories.trucos-terminal %}
+        <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    <h2>Saber más</h2>
+    <ul>
+      {% for post in site.categories.saber-mas %}
+        <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+
+</ul>

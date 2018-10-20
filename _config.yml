@@ -1,0 +1,6 @@
+---
+exclude: ['README.markdown']
+permalink: ':title'
+highlighter: true
+safe: false
+title: 'Terminal - Adalab'
