@@ -3,7 +3,7 @@ title: 'Introducción'
 show: true
 ---
 
-En esta web, se cubre lo que se dió en el taller sobre el terminal en [Adalab](https://adalab.es). Si no estuviste en la charla, espero que te sirva también.
+En esta web, se cubre lo que se dió en el taller sobre el terminal en [Adalab](https://adalab.es). Si no estuviste en la charla, es posible que te falte algo de contexto pero espero que te sirva también.
 
 ## Qué es el terminal
 El terminal no es más que un programa, como puede ser Word, el navegador de Internet Chrome, Firefox o Safari, o Outlook para recibir el correo.
