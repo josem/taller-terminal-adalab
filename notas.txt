@@ -1,0 +1,31 @@
+Notas para el taller
+
+Primeros pasos
+- Abrir el terminal
+- Comando no encontrado
+- Ejemplo de comando con date y cal
+- Comandos: man
+- Salir de less
+- Comando whatis, apropos
+
+Sistema de archivos
+Ver:
+- pwd
+- ls
+- ls -l
+- cd
+- cat
+Cambiar:
+- mkdir
+- touch
+- rm
+- rm -r
+- cp
+- mv
+
+Trucos
+- Historia con flechas, búsqueda invertida con Ctrl R
+- Usar autocompletado con tabulador
+- El uso de asterisco como en rm file*.txt
+- Salir con Ctrl + C / *
+- Para limpiar la pantalla: (CTRL + L) en Ubuntu / (CMD + K) en Mac / clear
